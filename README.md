@@ -1,79 +1,74 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Dynamic UI Example
 
-# Getting Started
+This is a React Native project that demonstrates the creation of dynamic UI components based on a provided JSON array. It includes a tabbed interface with background images and a FlatList at the bottom for displaying dynamic content.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Table of Contents
 
-## Step 1: Start the Metro Server
+- [Installation](#installation)
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+- [Folder Structure](#folder-structure)
+- [License](#license)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Installation
 
-To start Metro, run the following command from the _root_ of your React Native project:
+1. Clone the repository:
 
-```bash
-# using npm
-npm start
+   ```bash
+   git clone https://github.com/your-username/react-native-dynamic-ui-example.git
+   ```
+   
+2. Change into the project directory:
 
-# OR using Yarn
-yarn start
-```
+   ```bash
+   cd react-native-dynamic-ui-example
+   ```
+   
+3. Install dependencies:
 
-## Step 2: Start your Application
+   ```bash
+   npm install
+   ```
+4. Install dependencies:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+   ```bash
+   npx react-native run-android
+   ```
 
-### For Android
+## Usage
 
-```bash
-# using npm
-npm run android
+* Open the project in your preferred code editor.
 
-# OR using Yarn
-yarn android
-```
+* Explore the src directory to understand the project structure and view the components.
 
-### For iOS
+* Modify the dynamicDataArray in App.js to change the dynamic content and structure.
 
-```bash
-# using npm
-npm run ios
+* Customize styles and UI components in the respective files (DynamicItemComponent.js, TabWithImageComponent.js, ImageWithTextComponent.js, etc.).
 
-# OR using Yarn
-yarn ios
-```
+## Dependencies
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+The project uses the following dependencies:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+* react: JavaScript library for building user interfaces.
+* react-native: Framework for building native mobile applications using React.
+* react-native-toast-message: Library for displaying toast notifications.
 
-## Step 3: Modifying your App
+## Folder Structure
 
-Now that you have successfully run the app, let's modify it.
+* android: Android platform-specific code.
+* ios: iOS platform-specific code.
+* node_modules: Node.js modules and dependencies.
+* src: Source code of the React Native application.
+   * components: Reusable React components.
+   * screens: Top-level screens or pages.
+   * App.js: Main entry point for the application.
+* index.js: Entry point for the React Native application.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## License
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+This project is licensed under the MIT License.
 
-## Congratulations! :tada:
 
-You've successfully run and modified your React Native App. :partying_face:
+You can customize the README file based on the specific details of your project. Add or modify sections as needed to provide clear instructions and information about your React Native application.
 
-### Now what?
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
