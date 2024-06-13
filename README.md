@@ -15,7 +15,7 @@ This is a React Native project that demonstrates the creation of dynamic UI comp
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/DynamicScreenComponent-React-Native.git
+   git clone https://github.com/amiankit11/DynamicScreenComponent-React-Native.git
    ```
    
 2. Change into the project directory:
